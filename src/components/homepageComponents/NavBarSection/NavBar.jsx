@@ -18,7 +18,7 @@ import {
   fetchUserProfile,
 } from "../../../store/slices/userSlice";
 import { resetAlbumData } from "../../../store/slices/albumSlice";
-import { useAuth } from "../../auth/AuthContext";
+import { useAuth } from "../../Auth/AuthContext";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
