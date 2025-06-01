@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { Navigate, useLocation } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { useAuth } from "./auth/AuthContext";
+import { useAuth } from "./Auth/AuthContext";
 import { checkAuth } from "../store/slices/authSlice";
 import authService from "../services/authService";
 
