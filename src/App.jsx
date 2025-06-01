@@ -28,7 +28,7 @@ import UploadPage from "./components/uploadPageComponents/ModernUploadPage";
 import { AuthProvider, useAuth } from "./components/Auth/AuthContext";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
-import UserPayment from "./components/PaymentPage/userPayment";
+import UserPayment from "./components/PaymentPage/UserPayment";
 
 const stripePromise = loadStripe(
   "pk_test_51PH8bkRqmdDNCbTMCPkDJB0E5dNlOffSSZO3VZu8jCSrAR90a9iiqstxWMi7YJcwSVWT4Y5NDAOLcqZ0yptvL8dD00ogSGb4HL"
